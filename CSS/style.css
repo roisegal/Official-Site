@@ -1,0 +1,156 @@
+/***********************************TAG SELECTORS**************************/
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  color: #0f4c81;
+  font-family: 'Dancing Script', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #0f4c81;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  color: black;
+}
+
+div {
+  position: relative;
+}
+
+hr {
+  border-style: dotted none none none;
+  border-width: 7px;
+  border-color: #11999E;
+  width: 10%;
+  margin: 100px auto 100px auto;
+}
+
+/***********************************CLASS SELECTORS**************************/
+.TopContainer {
+  background-color: #c2f0fc;
+  position: relative;
+  padding-top: 100px;
+}
+
+.MiddleContainer {
+  position: relative;
+  padding-top: 75px;
+}
+
+.BottomContainer {
+  background-color: #c2f0fc;
+  font-family: 'Montserrat', sans-serif;
+  position: relative;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  padding-top: 50px;
+}
+
+.ProfilePic {
+  width: 200px;
+  height: 200px;
+}
+
+.profile {
+  width: 40%;
+  margin: auto auto auto auto;
+  line-height: 2;
+}
+
+.TopCloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.BottemCloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.HeadSpan {
+  text-decoration: underline;
+}
+
+.WebDevSkill {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.IslamSkill {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  line-height: 2;
+}
+
+.linkRef {
+  text-decoration: none;
+  padding: 15px;
+  color: #11999E;
+}
+
+.myButton {
+  background-color: #c2f0fc;
+  border-radius: 10px;
+  display: inline-block;
+  cursor: pointer;
+  color: #11999E;
+  font-family: Montserrat;
+  font-size: 20px;
+  padding: 10px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+
+.myButton:hover {
+  background-color: #0f4c81;
+  color: #ffffff;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+/***********************************ID SELECTORS**************************/
+#PesticideForChrome {
+  margin-bottom: 0;
+  font-size: 10px;
+  color: white;
+  padding-top: 50px;
+}
